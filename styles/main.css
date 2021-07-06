@@ -193,6 +193,10 @@ footer{
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+.row {
+  display: flex;
+  flex-direction: row;
+}
 
 @media (max-width: 1024px) {
   .logo{
@@ -208,6 +212,8 @@ footer{
     align-items: center;
   }
 }
+
+
 
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
