@@ -155,7 +155,11 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
+.sidy-by-side {
+  display: flex;
+  flex-direction: row;
+  flex-basis: available;
+  width: 100%;
 }
 
 .description{
