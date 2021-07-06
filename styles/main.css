@@ -215,6 +215,10 @@ footer{
   padding: 1em;
 }
 
+.product-title {
+  border-left: #27AE60 solid 5px;
+}
+
 .emphasize h2 {
   margin: 0;
   text-align: center;
