@@ -198,6 +198,17 @@ footer{
   flex-direction: row;
 }
 
+.emphasize {
+  border-left: #27AE60 solid 5px;
+  box-shadow: #27AE60 1px 0 5px;
+  padding: 1em;
+}
+
+.emphasize h2 {
+  margin: 0;
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
   .logo{
     margin: 0 auto;
