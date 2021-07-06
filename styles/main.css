@@ -219,6 +219,10 @@ article h2 {
           1px 1px 0 #FCFCFC;
 }
 
+button {
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   .logo{
     margin: 0 auto;
